@@ -1,5 +1,5 @@
 # Growth & Maturation App  
-<img src="logo.png" width="200" align="right" />
+<img src="logo.png" width="220" align="right" />
 
 A Shiny Application for Maturity Offset (Mirwald), PHV Prediction, and Predicted Adult Height (Khamis–Roche) estimation.
 
@@ -91,6 +91,7 @@ If PDF rendering fails, install TinyTeX:
 
 ```r
 tinytex::install_tinytex()
+
 📂 Repository Structure
 growth-maturation-app/
 │
@@ -112,13 +113,12 @@ install.packages(c(
 Run the app:
 
 shiny::runApp("path/to/app/folder")
-```r
 
 📚 Related Work & Inspiration
 
-The logic and structure of this app were inspired by existing tools in the R ecosystem:
+The design, structure, and validation were inspired by excellent existing R packages:
 
-matuR package
+matuR
 
 Fernandez J. (2020). matuR: Athlete Maturation and Biobanding.
 https://github.com/josedv82/matuR
@@ -131,7 +131,7 @@ https://github.com/josedv82/matuR
   url = {https://github.com/josedv82/matuR},
 }
 
-ageR package
+ageR
 
 Kikhia A. (2023). ageR: Athlete Growth & Maturation.
 https://github.com/a-kikhia11/ageR
@@ -153,15 +153,8 @@ Linktree: https://linktr.ee/matijapav
 
 🏋️‍♂️ Purpose of the App
 
-To provide coaches with a simple, reliable, and scientifically-grounded tool to assess growth & maturation in youth athletes—without spreadsheets, manual calculations, or coding.
+To give coaches a simple, reliable, scientifically-grounded tool for assessing growth & maturation in youth athletes — without spreadsheets, manual calculations, or coding.
 
 🤝 Contribute
 
-Feedback, suggestions, and pull requests are welcome!
-
-
-
-
-
-
-Pull requests and suggestions are welcome.
+Feedback, issues, and pull requests are welcome!
