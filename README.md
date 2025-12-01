@@ -1,9 +1,8 @@
 # Growth & Maturation App  
 <img src="logo.png" width="200" align="right" />
 
-A Shiny Application for Maturity Offset (Mirwald), PHV Prediction, and Predicted Adult Height (Khamis–Roche).
+A Shiny Application for Maturity Offset (Mirwald), PHV Prediction, and Predicted Adult Height (Khamis–Roche) estimation.
 
-Created by **Matija Pavlovic**
 
 ---
 
@@ -47,6 +46,121 @@ Predicts years from PHV using anthropometric variables:
 - Chronological age  
 
 PHV age is calculated as:
+PHV Age = Chronological Age − Maturity Offset
+
+
+---
+
+### **Khamis & Roche (1994) — Predicted Adult Height**
+Estimates adult height **without skeletal age**, using:
+
+- Child height  
+- Child body mass  
+- Mid-parent height  
+- Age- and sex-specific proportional multipliers  
+
+Best validated for children of **White/European ancestry** — less accurate for others.
+
+---
+
+## 📊 **Visualizations in the App**
+
+- **Height growth curve** with PHV marker  
+- **% of Predicted Adult Height gauge**
+- **Maturity offset bar**
+- **Growth tempo** gauge (if multiple time points provided)
+
+All visuals are optimized for dark mode and export cleanly into the PDF report.
+
+---
+
+## 📄 **PDF Report Generation**
+
+The app automatically generates a **professional PDF report** summarizing:
+
+- Athlete information  
+- Chronological & biological age  
+- Offset and Age at PHV  
+- % Predicted Adult Height  
+- Growth curve  
+- PHV zone chart  
+- Maturity offset chart  
+
+### ⚠️ For local use:
+If PDF rendering fails, install TinyTeX:
+
+```r
+tinytex::install_tinytex()
+📂 Repository Structure
+growth-maturation-app/
+│
+├── app.R
+├── g_mApp_template.xlsx
+├── logo.png
+└── README.md
+
+🖥 Run the App Locally
+
+Install required packages:
+
+install.packages(c(
+  "shiny","ggplot2","readxl","dplyr","bslib",
+  "rmarkdown","knitr","lubridate","plotly","tibble"
+))
+
+
+Run the app:
+
+shiny::runApp("path/to/app/folder")
+
+📚 Related Work & Inspiration
+
+The logic and structure of this app were inspired by existing tools in the R ecosystem:
+
+matuR package
+
+Fernandez J. (2020). matuR: Athlete Maturation and Biobanding.
+https://github.com/josedv82/matuR
+
+@Manual{
+  title = {matuR: Athlete Maturation and Biobanding},
+  author = {Jose Fernandez},
+  year = {2020},
+  note = {R package version 0.0.0.9000},
+  url = {https://github.com/josedv82/matuR},
+}
+
+ageR package
+
+Kikhia A. (2023). ageR: Athlete Growth & Maturation.
+https://github.com/a-kikhia11/ageR
+
+👤 About the Author
+
+Matija Pavlovic
+Strength & Conditioning Coach
+
+🔗 Links
+
+GitHub: https://github.com/matijapavlovic
+
+LinkedIn: http://linkedin.com/in/matija-pavlovic
+
+Twitter (X): https://x.com/MatijaPavlovic
+
+Linktree: https://linktr.ee/matijapav
+
+🏋️‍♂️ Purpose of the App
+
+To provide coaches with a simple, reliable, and scientifically-grounded tool to assess growth & maturation in youth athletes—without spreadsheets, manual calculations, or coding.
+
+🤝 Contribute
+
+Feedback, suggestions, and pull requests are welcome!
+
+
+
+
 
 
 Pull requests and suggestions are welcome.
