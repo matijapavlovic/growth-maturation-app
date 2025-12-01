@@ -12,7 +12,7 @@ https://matijapavlovic.shinyapps.io/g_mapp/
 
 ---
 
-## 📥 **Download Template**
+##  **Download Template**
 The Excel input template is included in this repository:  
 **➡️ g_mApp_template.xlsx**
 
@@ -63,7 +63,7 @@ Best validated for children of **White/European ancestry** — less accurate for
 
 ---
 
-## 📊 **Visualizations in the App**
+##  **Visualizations in the App**
 
 - **Height growth curve** with PHV marker  
 - **% of Predicted Adult Height gauge**
@@ -74,7 +74,7 @@ All visuals are optimized for dark mode and export cleanly into the PDF report.
 
 ---
 
-## 📄 **PDF Report Generation**
+##  **PDF Report Generation**
 
 The app automatically generates a **professional PDF report** summarizing:
 
@@ -86,7 +86,7 @@ The app automatically generates a **professional PDF report** summarizing:
 - PHV zone chart  
 - Maturity offset chart  
 
-### ⚠️ For local use:
+###  For local use:
 If PDF rendering fails, install TinyTeX:
 
 ```r
@@ -101,7 +101,7 @@ growth-maturation-app/
 └── README.md
 ```
 
-🖥 Run the App Locally
+ Run the App Locally
 
 Install required packages:
 ```
@@ -116,7 +116,7 @@ Run the app:
 shiny::runApp("path/to/app/folder")
 ```
 
-📚 **Related Work & Inspiration**
+ **Related Work & Inspiration**
 
 The design, structure, and validation were inspired by excellent existing R packages:
 
@@ -131,12 +131,15 @@ https://github.com/josedv82/matuR
 **Kikhia A.** (2023). ageR: Athlete Growth & Maturation.
 https://github.com/a-kikhia11/ageR
 
-About the Author
 
-Matija Pavlovic
+
+
+**About the Author**
+
+**Matija Pavlovic**
 Strength & Conditioning Coach
 
-Links
+**Links**
 
 GitHub: https://github.com/matijapavlovic
 
@@ -146,10 +149,10 @@ Twitter (X): https://x.com/MatijaPavlovic
 
 Linktree: https://linktr.ee/matijapav
 
-Purpose of the App
+**Purpose of the App**
 
 To give coaches a simple, reliable, scientifically-grounded tool for assessing growth & maturation in youth athletes — without spreadsheets, manual calculations, or coding
 
-Contribute
+**Contribute**
 
 Feedback, issues, and pull requests are welcome!
