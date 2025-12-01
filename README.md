@@ -6,8 +6,8 @@ A Shiny Application for Maturity Offset (Mirwald), PHV Prediction, and Predicted
 
 ---
 
-## 🔗 **Live App**
-👉 Use the app here:  
+##  **Live App**
+ Use the app here:  
 https://matijapavlovic.shinyapps.io/g_mapp/
 
 ---
@@ -18,7 +18,7 @@ The Excel input template is included in this repository:
 
 ---
 
-## 📌 **Overview**
+##  **Overview**
 
 This Shiny application allows coaches, practitioners, and sport scientists to:
 
@@ -35,7 +35,7 @@ Built entirely with **R, Shiny, ggplot2, tidyverse, plotly, and rmarkdown**.
 
 ---
 
-## 🧠 **Methods Implemented**
+##  **Methods Implemented**
 
 ### **Mirwald et al. (2002) — Maturity Offset**
 Predicts years from PHV using anthropometric variables:
@@ -120,30 +120,23 @@ shiny::runApp("path/to/app/folder")
 
 The design, structure, and validation were inspired by excellent existing R packages:
 
-matuR
+**matuR**
 
-Fernandez J. (2020). matuR: Athlete Maturation and Biobanding.
+**Fernandez J.** (2020). matuR: Athlete Maturation and Biobanding.
 https://github.com/josedv82/matuR
 
-@Manual{
-  title = {matuR: Athlete Maturation and Biobanding},
-  author = {Jose Fernandez},
-  year = {2020},
-  note = {R package version 0.0.0.9000},
-  url = {https://github.com/josedv82/matuR},
-}
 
-ageR
+**ageR**
 
-Kikhia A. (2023). ageR: Athlete Growth & Maturation.
+**Kikhia A.** (2023). ageR: Athlete Growth & Maturation.
 https://github.com/a-kikhia11/ageR
 
-👤 About the Author
+About the Author
 
 Matija Pavlovic
 Strength & Conditioning Coach
 
-🔗 Links
+Links
 
 GitHub: https://github.com/matijapavlovic
 
@@ -153,10 +146,10 @@ Twitter (X): https://x.com/MatijaPavlovic
 
 Linktree: https://linktr.ee/matijapav
 
-🏋️‍♂️ Purpose of the App
+Purpose of the App
 
-To give coaches a simple, reliable, scientifically-grounded tool for assessing growth & maturation in youth athletes — without spreadsheets, manual calculations, or coding.
+To give coaches a simple, reliable, scientifically-grounded tool for assessing growth & maturation in youth athletes — without spreadsheets, manual calculations, or coding
 
-🤝 Contribute
+Contribute
 
 Feedback, issues, and pull requests are welcome!
