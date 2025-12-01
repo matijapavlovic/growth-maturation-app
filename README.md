@@ -134,7 +134,7 @@ https://github.com/a-kikhia11/ageR
 
 
 
-**About the Author**
+### **About the Author**
 
 **Matija Pavlovic**
 Strength & Conditioning Coach
