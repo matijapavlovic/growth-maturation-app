@@ -99,22 +99,24 @@ growth-maturation-app/
 ├── g_mApp_template.xlsx
 ├── logo.png
 └── README.md
+```
 
 🖥 Run the App Locally
 
 Install required packages:
-
+```
 install.packages(c(
   "shiny","ggplot2","readxl","dplyr","bslib",
   "rmarkdown","knitr","lubridate","plotly","tibble"
 ))
-
+```
 
 Run the app:
-
+```
 shiny::runApp("path/to/app/folder")
+```
 
-📚 Related Work & Inspiration
+📚 **Related Work & Inspiration**
 
 The design, structure, and validation were inspired by excellent existing R packages:
 
