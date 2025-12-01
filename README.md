@@ -1,6 +1,6 @@
 📈 Growth & Maturation App
 A Shiny Application for Maturity Offset (Mirwald), PHV, and PAH (Khamis–Roche) Maturity Estimation 
-![g_mApp] (https://github.com/matijapavlovic/growth-maturation-app/blob/main/logo.png)
+<img src="logo.png" width="130" align="right" />
 
 Created by Matija Pavlovic
 
