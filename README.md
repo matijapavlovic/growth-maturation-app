@@ -112,6 +112,7 @@ install.packages(c(
 Run the app:
 
 shiny::runApp("path/to/app/folder")
+''r
 
 📚 Related Work & Inspiration
 
